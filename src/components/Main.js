@@ -1,9 +1,11 @@
 import React from 'react'
+import Cards from './Cards'
 
 export default function Main() {
     return (
-        <div>
+        <main>
+            <Cards />
             
-        </div>
+        </main>
     )
 }
