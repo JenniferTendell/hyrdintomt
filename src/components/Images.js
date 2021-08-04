@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Grid, makeStyles } from '@material-ui/core';
+import { Grid, makeStyles } from '@material-ui/core';
 
 /* IMAGES */
 import image1 from '../assets/image1.jpg';
@@ -11,28 +11,25 @@ export default function Images() {
     const style = styles();
 
     return (
-        <Box>
-            <Grid 
-                container 
-                direction="row"
-                justifyContent="center"
-                alignItems="center"
-                spacing={3}
-            >
-                <Grid item xs={10} sm={5} md={6}>
-                    <img className={style.image} src={image1} alt='plot 1' />
-                </Grid>
-                <Grid item xs={10} sm={5} md={6}>
-                    <img className={style.image} src={image2} alt='plot 1' /> 
-                </Grid>
-                <Grid item xs={10} sm={5} md={6}>
-                    <img className={style.image} src={image3} alt='plot 1' />
-                </Grid>
-                <Grid item xs={10} sm={5} md={6}>
-                    <img className={style.image} src={image4} alt='plot 1' />
-                </Grid>
+        <Grid 
+            container  
+            justifyContent="center"
+            alignItems="center"
+            spacing={3}
+        >
+            <Grid item xs={12} sm={6}>
+                <img className={style.image} src={image1} alt='plot 1' />
             </Grid>
-        </Box>
+            <Grid item xs={12} sm={6}>
+                <img className={style.image} src={image2} alt='plot 1' /> 
+            </Grid>
+            <Grid item xs={12} sm={6}>
+                <img className={style.image} src={image3} alt='plot 1' />
+            </Grid>
+            <Grid item xs={12} sm={6}>
+                <img className={style.image} src={image4} alt='plot 1' />
+            </Grid>
+        </Grid>  
     )
 };
 

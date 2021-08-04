@@ -10,7 +10,7 @@ export default function InfoText() {
             <Typography variant='h2'>
                 Gråbo
             </Typography>
-            <Typography variant='h4'>
+            <Typography variant='h5'>
                 Lekstorps industriväg 7
             </Typography>
             <Typography>
@@ -25,7 +25,10 @@ export default function InfoText() {
 const styles = makeStyles((theme) => ({
     root: {
         maxWidth: '40rem',
-        margin: '6rem auto',
-        padding: '1.5rem',
+        margin: '10rem auto',
+        textAlign: 'center',
+        [theme.breakpoints.down("sm")]: {
+            margin: '7rem 0 8rem',
+        },
     },
 }));

@@ -12,7 +12,7 @@ export default function Footer() {
             justifyContent="center"
             alignItems="center"
         >
-            <Grid item className={style.text} xs={12}>
+            <Grid item className={style.text} xs={11}>
                 <Typography variant='subtitle1'>
                     Maila gärna om frågor och intresse 
                 </Typography>
@@ -41,8 +41,7 @@ export default function Footer() {
 const styles = makeStyles((theme) => ({
     root: {
         width: "100%",
-        padding: "2rem 0 5rem",
-        marginTop: "5rem",
+        padding: "4rem 0 6rem",
         backgroundColor: "#25252D",
     },
     container: {
@@ -52,10 +51,5 @@ const styles = makeStyles((theme) => ({
     text: {
         textAlign: 'center',
         color: 'white',
-    },
-    logo: {
-        textAlign: 'center',
-        color: 'white',
-        marginTop: '2rem'
     },
 }));

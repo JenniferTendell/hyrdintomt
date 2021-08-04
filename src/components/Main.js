@@ -20,7 +20,8 @@ export default function Main() {
 
 const styles = makeStyles((theme) => ({
     root: {
-        maxWidth: '50rem',
+        maxWidth: '60rem',
         margin: '0 auto',
+        padding: '0 1rem',
     }
 }))
