@@ -2,6 +2,7 @@ import React from 'react';
 import Cards from './Cards';
 import InfoText from './InfoText';
 import Images from './Images';
+import NotificationText from './NotificationText';
 import { makeStyles } from '@material-ui/core';
 
 export default function Main() {
@@ -12,6 +13,7 @@ export default function Main() {
             <Cards />
             <InfoText />
             <Images />
+            <NotificationText />
         </main>
     )
 };
