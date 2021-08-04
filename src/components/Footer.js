@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, makeStyles } from "@material-ui/core";
+import { Grid, makeStyles, Typography } from "@material-ui/core";
 
 export default function Footer() {
   const style = styles();
@@ -13,18 +13,25 @@ export default function Footer() {
             alignItems="center"
         >
             <Grid item className={style.text} xs={12}>
-                <h2>Maila gärna om frågor och intresse. </h2>
+                <Typography variant='subtitle1'>
+                    Maila gärna om frågor och intresse 
+                </Typography>
             </Grid>
             <Grid item className={style.text} xs={12} sm={4} md={2.5}>
-                <h3>Kontakt</h3>
-                <p>hyrdintomt@gmail.com</p>
+                <Typography variant='subtitle2'>
+                    Kontakt
+                </Typography>
+                <Typography>
+                    hyrdintomt@gmail.com
+                </Typography>
             </Grid>
             <Grid item className={style.text} xs={12} sm={4} md={2.5}>
-                <h3>Adress</h3>
-                <p>Lekstorps industriväg 7, Gråbo</p>
-            </Grid>
-            <Grid item className={style.logo} xs={12}>
-                <h2>Hyr din tomt</h2>
+                <Typography variant='subtitle2'>
+                    Adress
+                </Typography>
+                <Typography>
+                    Lekstorps industriväg 7, Gråbo
+                </Typography>
             </Grid>
         </Grid>
     </footer>
@@ -34,7 +41,7 @@ export default function Footer() {
 const styles = makeStyles((theme) => ({
     root: {
         width: "100%",
-        padding: "2rem 0",
+        padding: "2rem 0 5rem",
         marginTop: "5rem",
         backgroundColor: "#25252D",
     },

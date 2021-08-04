@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, makeStyles, Paper } from '@material-ui/core'
+import { Box, makeStyles, Paper, Typography } from '@material-ui/core'
 
 /* ICONS */
 import CropFreeRoundedIcon from '@material-ui/icons/CropFreeRounded';
@@ -14,19 +14,27 @@ export default function Cards() {
         <Box className={style.root}>
             <Paper className={style.card} elevation={3}>
                 <CropFreeRoundedIcon className={style.icon} />
-                <caption>220 kvm/tomt</caption>
+                <Typography>
+                    220 kvm/tomt
+                </Typography>
             </Paper>
             <Paper className={style.card} elevation={3}>
                 <FlashOnRoundedIcon className={style.icon} />
-                <caption>Tillgång till ström</caption>
+                <Typography>
+                    Tillgång till ström
+                </Typography>
             </Paper>
             <Paper className={style.card} elevation={3}>
                 <WbIncandescentRoundedIcon className={style.icon} />
-                <caption>Väl belysta</caption>
+                <Typography>
+                    Väl belysta
+                </Typography>
             </Paper>
             <Paper className={style.card} elevation={3}>
                 <SecurityRoundedIcon className={style.icon} />
-                <caption>2.5 m högt stängsel</caption>
+                <Typography>
+                    2.5m högt stängsel
+                </Typography>
             </Paper>  
         </Box>
     )
@@ -43,13 +51,13 @@ const styles = makeStyles((theme) => ({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        margin: theme.spacing(3),
-        width: theme.spacing(18),
+        margin: theme.spacing(2),
+        width: theme.spacing(20),
         height: theme.spacing(18),
     },
     icon: {
         color: '#FABD64',
         fontSize: '3rem',
-        margin: '1rem 0'
+        margin: '1.5rem 0 1.2rem'
     },
 }));

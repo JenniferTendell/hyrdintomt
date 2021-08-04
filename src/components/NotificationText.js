@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, makeStyles, Box } from "@material-ui/core";
+import { Grid, makeStyles, Box, Typography } from "@material-ui/core";
 import BuildRoundedIcon from "@material-ui/icons/BuildRounded";
 
 export default function NotificationText() {
@@ -19,12 +19,14 @@ export default function NotificationText() {
                 </Box>
             </Grid>
             <Grid item xs={10} sm={5} >
-                <h2>Annan storlek?</h2>
-                <p>
-                    Fler tomter kommer att byggas på samma plats och har därför
+                <Typography variant='h4'>
+                    Pågående tomter
+                </Typography>
+                <Typography>
+                    Fler tomter kommer att byggas mitt emot och har därför
                     möjlighet att ta emot förslag på önskad storlek om ni tänkt hyra en
                     längre tid.
-                </p>
+                </Typography>
             </Grid>
         </Grid>
     );
@@ -32,7 +34,7 @@ export default function NotificationText() {
 
 const styles = makeStyles((theme) => ({
     root: {
-        margin: '5rem 0',
+        margin: '7rem 0',
     },
     circle: {
         display: "flex",

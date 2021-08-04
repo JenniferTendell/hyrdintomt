@@ -28,5 +28,8 @@ const styles = makeStyles((theme) => ({
     logo: {
         position: 'absolute',
         zIndex: 10,
+        fontFamily: 'Bebas Neue, cursive',
+        color: 'white',
+        fontSize: '10rem'
     }
 }));
