@@ -28,7 +28,7 @@ const styles = makeStyles((theme) => ({
         margin: '10rem auto',
         textAlign: 'center',
         [theme.breakpoints.down("sm")]: {
-            margin: '7rem 0 8rem',
+            margin: '7rem auto 8rem',
         },
     },
 }));
