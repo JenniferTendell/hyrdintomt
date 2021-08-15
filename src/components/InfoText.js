@@ -14,8 +14,8 @@ export default function InfoText() {
                 Lekstorps industriväg 7
             </Typography>
             <Typography>
-                Tomterna är belägna i Gråbos industriområde som är på uppgång, ca 3 mil från Göteborg. 
-                Vi erbjuder uthyrning av lager/uppställningsplatser, här kan du exempelvis ställa din båt, husvagn, släpkärra, husbil eller material.
+                Tomterna är belägna i Gråbos industriområde, ca 3 mil från Göteborg. 
+                Vi erbjuder uthyrning av lager/uppställningsplatser där du som kund kan ställa din båt, husvagn, släpkärra, husbil eller material.
                 En perfekt yta som passar likaväl företag som privatperson.
             </Typography> 
         </Box>
