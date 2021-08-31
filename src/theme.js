@@ -37,14 +37,13 @@ export const theme = createTheme({
         subtitle1: {
             fontSize: '2rem',
             fontWeight: '300',
-            color: 'white',
-            marginBottom: '2rem', 
+            color: 'white', 
         },
         subtitle2: {
             fontSize: '1.5rem',
             fontWeight: '400',
             color: 'white',
-            marginTop: '2.5rem'
+            marginBottom: '.5rem'
         }, 
         body1: {
             fontSize: '1.2rem',    
